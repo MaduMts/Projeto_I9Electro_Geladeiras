@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: #023B60;
-    padding: 20px 0;
+    padding: 10px 0;
     color: #fff;
 }
 
@@ -31,12 +31,13 @@ header .container {
 
 header .logo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
 header .logo img {
     max-width: 60px;
+    margin-right: 10px; /* Espaço entre o logo e o texto */
     margin-bottom: 5px;
 }
 
@@ -47,6 +48,7 @@ header .logo h1 {
 }
 
 header nav ul {
+    font-size: 20px;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -102,7 +104,7 @@ header nav ul li a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* Adiciona uma camada escura para melhorar a leitura do texto */
+    background-color: rgba(0, 0, 0, 0.564); /* Adiciona uma camada escura para melhorar a leitura do texto */
     z-index: 1;
 }
 
@@ -111,13 +113,18 @@ header nav ul li a:hover {
     z-index: 2;
 }
 
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
 .hero h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 
@@ -155,7 +162,7 @@ header nav ul li a:hover {
 
 .servicos h2 {
     margin-bottom: 40px;
-    font-size: 28px;
+    font-size: 40px;
 }
 
 .servico-lista {
@@ -176,6 +183,10 @@ header nav ul li a:hover {
 .servico-item h3 {
     margin-bottom: 10px;
     font-size: 22px;
+}
+
+.servico-item u {
+    font-size: 20px;
 }
 
 .quem-somos {
