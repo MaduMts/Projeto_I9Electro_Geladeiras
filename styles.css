@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: #023B60;
-    padding: 10px 0;
+    padding: 5px 0;
     color: #fff;
 }
 
@@ -36,7 +36,7 @@ header .logo {
 }
 
 header .logo img {
-    max-width: 70px; /* Aumenta o tamanho do logo */
+    max-width: 60px; /* Aumenta o tamanho do logo */
     margin-right: 12px; /* Espaço entre o logo e o texto */
     margin-bottom: 5px;
 }
@@ -138,7 +138,7 @@ header nav ul li a:hover {
     border-radius: 5px;
     transition: background 0.3s ease;
     display: inline-block;
-    margin-bottom: 50px; /* Adicionar espaçamento entre os botões */
+    margin-bottom: 16px; /* Adicionar espaçamento entre os botões */
 }
 
 .hero .btn:hover {
@@ -146,7 +146,7 @@ header nav ul li a:hover {
 }
 
 .hero .btn-secondary {
-    margin-left: 50px; /* Espaçamento entre os botões */
+    margin-left: 16px; /* Espaçamento entre os botões */
 }
 
 .hero .btn-secondary:hover {
