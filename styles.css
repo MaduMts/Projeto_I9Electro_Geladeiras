@@ -36,8 +36,8 @@ header .logo {
 }
 
 header .logo img {
-    max-width: 60px;
-    margin-right: 10px; /* Espaço entre o logo e o texto */
+    max-width: 70px; /* Aumenta o tamanho do logo */
+    margin-right: 12px; /* Espaço entre o logo e o texto */
     margin-bottom: 5px;
 }
 
@@ -48,7 +48,7 @@ header .logo h1 {
 }
 
 header nav ul {
-    font-size: 20px;
+    font-size: 16px; /* Reduz o tamanho da fonte do menu */
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -61,7 +61,7 @@ header nav ul li {
 }
 
 header nav ul li.informacoes {
-    margin-right: 50px; /* Isso separa os itens "São Paulo, SP" e "Telefone" dos demais */
+    margin-right: 55px; /* Isso separa os itens "São Paulo, SP" e "Telefone" dos demais */
 }
 
 header nav ul li a {
@@ -138,7 +138,7 @@ header nav ul li a:hover {
     border-radius: 5px;
     transition: background 0.3s ease;
     display: inline-block;
-    margin-bottom: 10px; /* Adicionar espaçamento entre os botões */
+    margin-bottom: 50px; /* Adicionar espaçamento entre os botões */
 }
 
 .hero .btn:hover {
@@ -146,7 +146,7 @@ header nav ul li a:hover {
 }
 
 .hero .btn-secondary {
-    margin-left: 10px; /* Espaçamento entre os botões */
+    margin-left: 50px; /* Espaçamento entre os botões */
 }
 
 .hero .btn-secondary:hover {
