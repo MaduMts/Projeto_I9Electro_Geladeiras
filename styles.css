@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     color: #080808;
@@ -229,6 +233,8 @@ header nav ul li a:hover {
 }
 
 #quem-somos ul {
+    color: black;
+    font-weight: bold;
     list-style-type: none; /* Remove os pontos ou bolinhas */
     padding: 0; /* Remove o preenchimento interno padrão */
     margin: 0; /* Remove a margem padrão */
@@ -241,6 +247,21 @@ header nav ul li a:hover {
 #quem-somos ul li {
     font-size: 18px;
     margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
+.brand-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.brand-list li {
+    background: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .contato {
