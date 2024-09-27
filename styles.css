@@ -193,6 +193,23 @@ header nav ul li a:hover {
     font-size: 22px;
 }
 
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    .servico-lista {
+        flex-direction: column; /* Coloca os itens um embaixo do outro */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .servico-item {
+        max-width: 100%; /* Garante que os itens ocupem 100% da largura em telas menores */
+        text-align: center; /* Centraliza o conteúdo em telas pequenas */
+    }
+
+    .servico-item h3 {
+        font-size: 18px; /* Reduz o tamanho da fonte do h3 em telas menores */
+    }
+}
+
 .servico-item ul {
     list-style-position: outside; /* Posições dos pontos fora do texto */
     padding-left: 20px; /* Adiciona espaço à esquerda da lista */
