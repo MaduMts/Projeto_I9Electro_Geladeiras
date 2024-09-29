@@ -178,8 +178,9 @@ header nav ul li a:hover {
 
 .servico-item {
     background-color: #080808;
-    color: #fff;
-    padding: 20px;
+    color: #fff; 
+    padding: 50px; /*Aumenta o espaço interno da caixa*/
+    margin: 20x 0; /* Espaçamento entre as caixas */
     border-radius: 10px;
     flex: 1;
     max-width: 300px;
@@ -219,8 +220,16 @@ header nav ul li a:hover {
 .servico-item ul li {
     margin-bottom: 10px; /* Espaçamento entre os itens da lista */
     font-size: 18px; /* Ajuste o tamanho da fonte se necessário */
+    padding-left: 20px; /* Adiciona um leve recuo para as bolinhas e texto */
 }
 
+/* Ajuste adicional para telas menores */
+@media (max-width: 768px) {
+    .servico-item ul {
+        padding-left: 0; /* Remove o recuo da lista em telas pequenas */
+        list-style-position: inside; /* Mantém as bolinhas dentro do texto em telas menores */
+    }
+}
 
 .quem-somos {
     padding: 80px 0;
